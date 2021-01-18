@@ -37,6 +37,7 @@ public class LoginController {
         }catch (Exception e){
             String message="用户名密码错误";
             return new ResultFactory().buildFailResult(message);
+            System.out.println("你好");
         }
 
     }
