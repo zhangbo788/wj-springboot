@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: top.zbawq.WjSpringbootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.248 s - in top.zbawq.WjSpringbootApplicationTests
