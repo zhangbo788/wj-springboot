@@ -52,7 +52,6 @@ public class LoginController {
         subject.logout();
         String message="退出成功";
         Result result = ResultFactory.buildSuccessResult(message);
-        System.out.println("测试git");
         return result;
     }
 
