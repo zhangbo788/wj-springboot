@@ -2,11 +2,13 @@ package top.zbawq.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Component;
 import top.zbawq.pojo.Book;
 
 import java.util.List;
 
 @Mapper
+@Component
 public interface BookMapper extends BaseMapper<Book> {
 
     @Results(id="allBooksMap",value = {
